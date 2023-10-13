@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Combined Search Engine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Combined Search Engine</h1>
-
-    <!-- Custom search form -->
-    <form id="custom-search-form" action="search_results.php" method="GET">
-        <input type="text" name="query" id="query" placeholder="Enter your search query">
-        <input type="submit" value="Search">
-    </form>
-
-    <!-- Google Custom Search Engine -->
-    <script async src="https://cse.google.com/cse.js?cx=e1203212704bf4be8"></script>
-    <div class="gcse-searchbox"></div>
+    <div class="search-container">
+        <h1>My Search Engine</h1>
+        <form id="search-form" action="#">
+            <input type="text" id="search-input" placeholder="Enter your search query">
+            <button type="submit" id="search-button">Search</button>
+        </form>
+    </div>
 </body>
 </html>
